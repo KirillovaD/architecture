@@ -1,0 +1,387 @@
+header {
+    /*Шапка*/
+    position: absolute;
+    height: 90px;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background-color: #FFFFFF;
+}
+
+#logo {
+    position: absolute;
+    height: 20px;
+    padding: 36px 1068px 35px 152px;
+}
+
+nav.menu a {
+    font-size: 15px;
+    line-height: 24px;
+    color: #1B1A1A;
+    text-decoration: none;
+}
+
+#projects {
+    position: absolute;
+    padding-top: 33px;
+    padding-left: 731px;
+    padding-bottom: 33px;
+    padding-right: 648px;
+
+}
+
+#about {
+    position: absolute;
+    padding-top: 33px;
+    padding-left: 824px;
+    padding-bottom: 33px;
+    padding-right: 570px;
+
+}
+
+#news {
+    position: absolute;
+    padding-top: 33px;
+    padding-left: 902px;
+    padding-bottom: 33px;
+    padding-right: 498px;
+}
+
+#team {
+    position: absolute;
+    padding-top: 33px;
+    padding-left: 974px;
+    padding-bottom: 33px;
+    padding-right: 422px;
+}
+
+#contact {
+    position: absolute;
+    padding-top: 33px;
+    padding-left: 1050px;
+    padding-bottom: 33px;
+    padding-right: 326px;
+}
+
+button.template {
+    position: absolute;
+    height: 46px;
+    width: 155px;
+    left: 80%;
+    right: 0%;
+    top: calc(50% - 46px/2);
+    background: #1B1A1A;
+    border-radius: 14px;
+}
+
+button.template span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+
+nav.menu:hover {
+    text-decoration: none;
+}
+
+.maininfo {
+    /*1stblock*/
+    position: absolute;
+    height: 720px;
+    width: 100%;
+    top: 90px;
+    margin: 0%;
+    background-color: #ECE7E4;
+}
+
+.maininfo span.upper {
+    position: absolute;
+    height: 20px;
+    left: 6.67%;
+    right: 61.67%;
+    top: calc(50% - 20px/2 - 213px);
+}
+
+h1 {
+    position: absolute;
+    width: 417px;
+    height: 212px;
+    padding: 177px 923px 331px 100px;
+    font-size: 64px;
+    line-height: 70px;
+    color: #1B1A1A;
+}
+
+.maininfo p {
+    position: absolute;
+    height: 120px;
+    left: 6.67%;
+    right: 8.5%;
+    top: calc(50% - 120px/2 + 107px);
+    font-size: 16px;
+    line-height: 24px;
+    color: #403E3B;
+
+}
+
+.maininfo a {
+    position: absolute;
+    height: 46px;
+    left: 6.67%;
+    right: 71.17%;
+    top: calc(50% - 46px/2 + 220px);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+    text-decoration: none;
+}
+
+.maininfo img {
+    position: absolute;
+    height: 720px;
+    margin-left: 50%;
+    top: 0%;
+    right: 0%;
+}
+
+article {
+    position: absolute;
+    height: 782px;
+    width: 100%;
+    top: 720px;
+    background-color: #FFFFFF;
+
+}
+
+.ourfirm {
+    position: absolute;
+    height: 38px;
+    left: 336px;
+    right: 970px;
+    top: 100px;
+}
+
+.firm {
+    position: absolute;
+    height: 582px;
+    left: 34.77%;
+    right: -0.04%;
+    top: 100px;
+}
+
+div.reedinghouse {
+    position: absolute;
+    height: 600px;
+    width: 1440px;
+    left: 0%;
+    right: 0%;
+    top: 1592px;
+}
+
+.reedinghouse span.upper {
+    position: absolute;
+    height: 20px;
+    left: 70%;
+    right: 0%;
+    top: calc(50% - 20px/2 - 24px);
+
+}
+
+.reedinghouse p {
+    position: absolute;
+    height: 48px;
+    left: 70%;
+    right: 5%;
+    top: calc(50% - 48px/2 + 10px);
+}
+
+section.process {
+    position: absolute;
+    width: 1440px;
+    height: 582px;
+    left: 0px;
+    top: 2192px;
+    background-color: #FFFFFF;
+}
+
+.process span.upper {
+    position: absolute;
+    width: 122px;
+    height: 20px;
+    left: calc(50% - 122px/2);
+    top: 100px;
+    text-align: center;
+}
+
+.process h2 {
+    position: absolute;
+    width: 468px;
+    height: 42px;
+    left: calc(50% - 468px/2);
+    top: 133px;
+    font-size: 39px;
+    line-height: 42px;
+    text-align: center;
+    color: #1B1A1A;
+}
+
+.process div.sketch {
+    position: absolute;
+    height: 259px;
+    left: 136px;
+    right: 67.58%;
+    top: 222px;
+}
+
+.process div.finalizing {
+    position: absolute;
+    height: 259px;
+    left: 531px;
+    right: 33.76%;
+    top: 222px;
+
+}
+
+.process div.building {
+    position: absolute;
+    height: 259px;
+    left: 925px;
+    right: 0%;
+    top: 222px;
+}
+
+div.marblestaircase {
+    position: absolute;
+    height: 600px;
+    width: 1440px;
+    left: 0%;
+    right: 0%;
+    top: 2773px;
+}
+
+section.clients {
+    position: absolute;
+    height: 410px;
+    left: 0%;
+    right: 0%;
+    top: 3373px;
+    background-color: #403E3B;
+}
+
+div.swirlingstaircase {
+    position: absolute;
+    height: 600px;
+    left: 0%;
+    right: 0%;
+    top: 3783px;
+}
+
+section.projects {
+    position: absolute;
+    height: 918px;
+    left: 0%;
+    right: 0%;
+    top: 4383px;
+    background-color: #F7F7F7;
+}
+
+div.projects {
+    position: absolute;
+    height: 460px;
+    left: 1.33%;
+    right: 1.33%;
+    top: 152px;
+}
+
+#firstproject {
+    position: absolute;
+    height: 460px;
+    width: 379px;
+    left: 0.53%;
+    right: 0.53%;
+    top: 2px;
+}
+
+#secondproject {
+    position: absolute;
+    height: 460px;
+    width: 379px;
+    left: 33.82%;
+    right: 33.73%;
+    top: 0px;
+}
+
+#thirdproject {
+    position: absolute;
+    height: 460px;
+    width: 379px;
+    left: 67.55%;
+    right: 0%;
+    top: 0px;
+}
+
+button.projects {
+    position: absolute;
+    width: 180px;
+    height: 46px;
+    left: calc(50% - 180px/2 + 3px);
+    top: 652px;
+}
+
+section.team {
+    position: absolute;
+    height: 392px;
+    left: 9.44%;
+    right: 9.44%;
+    top: 5401px;
+}
+
+div.team {
+    position: absolute;
+    height: 392px;
+    left: 33.79%;
+    right: 0%;
+    top: 0px;
+}
+
+section.intouch {
+    position: absolute;
+    height: 314px;
+    left: 0%;
+    right: 0%;
+    top: 5893px;
+    background-color: #CEC4BC;
+}
+
+footer {
+    position: absolute;
+    height: 204px;
+    left: 0%;
+    right: 0%;
+    top: 6207px;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+span {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+span.upper {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+}
