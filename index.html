@@ -13,7 +13,7 @@
     <title>Wishbone+Partners</title>
 </head>
 
-<body>
+<body class="wrapper">
     <header>
         <img id="logo" src="assets/images/WishboneLogotype.png" alt="logo">
         <nav class="menu">
@@ -22,22 +22,26 @@
             <a href="#" id="news">News</a>
             <a href="#" id="team">Team</a>
             <a href="#" id="contact">Contact</a>
-            <button class="template"><span>Get template</span></button>
         </nav>
+        <button class="template"><span>Get template</span></button>
     </header>
     <main>
-        <div class="maininfo">
-            <span class="upper">Wishbone+Partners</span>
-            <h1>The home of <br>beautiful <br> architecture.</h1>
-            <p>We are an architecture firm with a focus on beautiful but <br> functional design. At its heart, we
-                believe design is about<br> usability and accessibility — these are the guiding principles for <br>our
-                work. Read more about our previous projects, our process<br> and our team below.
-            </p>
-            <a href="#">Read more</a>
+        <section class="maininfo">
+            <div class="intro">
+                <span class="upper">Wishbone+Partners</span>
+                <h1>The home of <br>beautiful <br> architecture.</h1>
+                <p>We are an architecture firm with a focus on beautiful but <br> functional design. At its heart, we
+                    believe design is about<br> usability and accessibility — these are the guiding principles for
+                    <br>our
+                    work. Read more about our previous projects, our process<br> and our team below.
+                </p>
+                <a href="#">Read more</a>
+            </div>
             <img src="assets/images/main_img.png" alt="Main image">
-        </div>
-        <article>
-            <h2 class="ourfirm">Our firm</h2>
+
+        </section>
+        <section class="ourfirm">
+            <h2>Our firm</h2>
             <div class="firm">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Suspendisse varius enim in eros
                     elementum
@@ -63,9 +67,9 @@
                 <h3>Stephen Collier</h3>
                 <span class="position">Senior Partner</span>
             </div>
-        </article>
+        </section>
         <div class="reedinghouse" style="background-image: url('assets/images/reeding_house.png');">
-            <div>
+            <div class="reedinghouse_text">
                 <span class="upper">Reeding House</span>
                 <p>Lorem ipsum dolor sit amet, dolor <br> sit amet dolor sit amet.</p>
             </div>
@@ -73,7 +77,7 @@
         <section class="process">
             <span class="upper">Our process</span>
             <h2>How we do what we do.</h2>
-            <div>
+            <div class="process_stages">
                 <div class="sketch">
                     <img src="assets/images/sketch.png" style="width: 117px; height: 117px;" alt="sketch">
                     <h3>Sketching</h3>
@@ -99,90 +103,114 @@
             </div>
         </section>
         <div class="marblestaircase" style="background-image: url('assets/images/marble_starecase.png');">
-            <div>
+            <div class="marblestaircase_text">
                 <span class="upper">The marble staircase</span>
                 <p>Lorem ipsum dolor sit amet, dolor <br> sit amet dolor sit amet.</p>
             </div>
         </div>
         <section class="clients">
-            <span class="upper">prior clients</span>
-            <h2>Happy customers.</h2>
-            <p>Morbi neque ex, condimentum dapibus congue et,<br> vulputate ut ligula. Vestibulum sit amet urna
-                turpis. Mauris<br> euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
+            <div class="client_text">
+                <span class="upper">prior clients</span>
+                <h2>Happy customers.</h2>
+                <p>Morbi neque ex, condimentum dapibus congue et,<br> vulputate ut ligula. Vestibulum sit amet urna
+                    turpis. Mauris<br> euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
+            </div>
             <div class="clientslogo">
-                <img src="assets/images/logo1.png" alt="logoclient1">
-                <img src="assets/images/logo2.png" alt="logoclient2">
-                <img src="assets/images/logo3.png" alt="logoclient3">
-                <img src="assets/images/logo4.png" alt="logoclient4">
+                <div class="clientslogo_firstset">
+                    <img src="assets/images/logo1.png" alt="logoclient1" id="logoclient1">
+                    <img src="assets/images/logo2.png" alt="logoclient2" id="logoclient2">
+                </div>
+                <div class="clientslogo_secondset">
+                    <img src="assets/images/logo3.png" alt="logoclient3" id="logoclient3">
+                    <img src="assets/images/logo4.png" alt="logoclient4" id="logoclient4">
+                </div>
             </div>
         </section>
         <div class="swirlingstaircase"
             style="background-image: url('assets/images/swirling_staircase.png');width: 1440px; height: 600px;">
-            <div>
+            <div class="swirlingstaircase_text">
                 <span class="upper">The swirling staircase</span>
                 <p>Lorem ipsum dolor sit amet, dolor <br> sit amet dolor sit amet.</p>
             </div>
         </div>
         <section class="projects">
-            <h2>Featured projects</h2>
-            <p>Some of the latest and greatest projects from us <br>here at Wishbone+Partners.</p>
-            <div class="projects">
+            <div class="projects_text">
+                <h2>Featured projects</h2>
+                <p>Some of the latest and greatest projects from us <br>here at Wishbone+Partners.</p>
+            </div>
+            <div class="projects_cards">
                 <img id="firstproject" src="assets/images/feature_projects1.png" alt="feature_project1">
                 <div id="secondproject" style="background-image: url('assets/images/feature_project2.png');">
-                    <span class="upper">New York</span>
-                    <h4>Big Road Brewery</h4>
+                    <div class="secondproject_text">
+                        <span class="upper">New York</span>
+                        <h4>Big Road Brewery</h4>
+                    </div>
                     <button class="newyork">Read more</button>
                 </div>
                 <img id="thirdproject" src="assets/images/feature_project3.png" alt="feature_project3">
+                <button class="projects">View all projects</button>
             </div>
-            <button class="projects">View all projects</button>
         </section>
         <section class="team">
-            <h2>Meet our team</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Suspendisse varius enim in eros <br>
-                elementum tristique. Duis cursus, mi quis.
-            </p>
-            <a href="#">See team</a>
-            <div class="team">
-                <div>
+            <div class="team_text">
+                <h2>Meet our team</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Suspendisse varius enim in eros <br>
+                    elementum tristique. Duis cursus, mi quis.
+                </p>
+                <a href="#">See team</a>
+            </div>
+            <div class="team_icons">
+                <div class="team_names">
                     <img src="assets/images/team1.png" alt="Stephen Collier">
-                    <h3>Stephen Collier</h3>
-                    <span class="position">Senior Partner</span>
+                    <div class="team_names_text">
+                        <h3>Stephen Collier</h3>
+                        <span class="position">Senior Partner</span>
+                    </div>
                 </div>
-                <div>
+                <div class="team_names">
                     <img src="assets/images/team2.png" alt="Ferris Wonder">
-                    <h3>Ferris Wonder</h3>
-                    <span class="position">Associate Partner</span>
+                    <div class="team_names_text">
+                        <h3>Ferris Wonder</h3>
+                        <span class="position">Associate Partner</span>
+                    </div>
                 </div>
-                <div>
+                <div class="team_names">
                     <img src="assets/images/team3.png" alt="Niko Ferry">
-                    <h3>Niko Ferry</h3>
-                    <span class="position">Partner</span>
+                    <div class="team_names_text">
+                        <h3>Niko Ferry</h3>
+                        <span class="position">Partner</span>
+                    </div>
                 </div>
-                <div>
+                <div class="team_names">
                     <img src="assets/images/team4.png" alt="Nolan Peters">
-                    <h3>Nolan Peters</h3>
-                    <span class="position">Associate</span>
+                    <div class="team_names_text">
+                        <h3>Nolan Peters</h3>
+                        <span class="position">Associate</span>
+                    </div>
                 </div>
-                <div>
-                    <img src="assets/images/team5.png" alt="Aria Stone">
-                    <h3>Aria Stone</h3>
-                    <span class="position">Senior Partner</span>
+                <div class="team_names">
+                    <img src=" assets/images/team5.png" alt="Aria Stone">
+                    <div class="team_names_text">
+                        <h3>Aria Stone</h3>
+                        <span class="position">Senior Partner</span>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="intouch">
-            <div class="intouch">
+            <div class="intouch_text">
                 <span class="upper">Get in touch</span>
                 <h2>Think we would be a good fit <br>for your next project?</h2>
-                <button class="getintouch">Get in touch</button>
             </div>
+            <a href="#" id="get_in_touch">Get in touch</a>
         </section>
     </main>
     <footer>
-        <img src="assets/images/WishboneLogotype.png" style="width: 220px; height: 19px;" alt="logo">
-        <p>Powered by Webflow</p>
-        <p>All rights reserved Wishbone+Partners, Inc.Licensing</p>
+        <div class="footer_logo_info">
+            <img src="assets/images/WishboneLogotype.png" alt="logo">
+            <p>Powered by Webflow <br>
+                All rights reserved Wishbone+Partners, Inc.Licensing</p>
+        </div>
         <div class="social">
             <a href="#">
                 <img src="assets/images/twitter.png" alt="twitter">
